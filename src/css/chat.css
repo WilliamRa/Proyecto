@@ -1,0 +1,65 @@
+
+.container-chat{
+    background: cornflowerblue;
+    display: inline-block;
+    padding: 10%;
+    margin: 10% 20% 30% 15%;
+    box-sizing: content-box;
+    border-radius: 15px;
+}
+
+.like{
+  flex-direction: column;
+  width: 100%;
+}
+
+.like > span{
+  flex-direction: unset;
+}
+
+textarea{
+  display: inline-block;
+
+}
+.form-text{
+  background-color: azure;
+  border-radius: 10px;
+}
+
+.comentarios{
+  background-color: azure;
+  padding: 3px;
+  margin-top: 5px;
+  border-radius: 5px;
+  box-sizing: inherit;
+  box-align: center;
+  border: 1px solid black;
+  display: flex;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.chat{
+margin-top: 30px;
+}
+
+.chat-button{
+  border-radius: 5px; background-color: #4CAF50;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+.prueba > svg {
+  color: #4CAF50;
+}
+
+.prueba{
+  text-align-last: right;
+ 
+}
